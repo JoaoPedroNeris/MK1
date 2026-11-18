@@ -1,8 +1,8 @@
-# Lotes de impressão do MK I v0.2c (18/11/2026, revisão 2)
+# Lotes de impressão do MK I v0.2c (18/11/2026, revisão 4)
 
 Impressora: **Prusa MK3S+** (mesa 250 × 210 × 210 mm), bico 0,4, **PETG**. TPU das pontas em outra máquina.
 
-**Resumo:** 31 peças FDM em **5 mesas de PETG + 1 de TPU**, com **1 troca de filamento** (laranja → preto). Tempo de máquina estimado pelo PrusaSlicer: **~60 h 20 min** de PETG (era 65 h 55 min na 1ª versão). Filamento: **~55 g laranja + ~842 g preto** (≈ 897 g).
+**Resumo:** 32 peças FDM em **5 mesas de PETG + 1 de TPU**, com **1 troca de filamento** (laranja → preto). Tempo de máquina estimado pelo PrusaSlicer: **~61 h 05 min** de PETG (era 65 h 55 min na 1ª versão). Filamento: **~55 g laranja + ~852 g preto** (≈ 907 g).
 
 Na prática o MK3S costuma demorar uns 5 a 10% a mais do que a estimativa.
 
@@ -15,7 +15,7 @@ Na prática o MK3S costuma demorar uns 5 a 10% a mais do que a estimativa.
 | 2 | laranja | `disco_espiral` | 43 min | 10 g | 4 mm |
 | — | | **Troca de filamento: laranja → preto** | | | |
 | 3 | preto | `turret`, `garra_base`, `carcaca`, `placa_guia`, 3 `mordente` (100% de preenchimento), 1 `servo_cap` | 21 h 34 min | 337 g | 95,5 mm |
-| 4 | preto | `base_shell`, 2 `servo_cap`, 7 `presilha_cabo` | 18 h 23 min | 273 g | 55 mm |
+| 4 | preto | `base_shell` (girada 90°), 3 `servo_cap`, 7 `presilha_cabo` | 19 h 06 min | 283 g | 55 mm |
 | 5 | preto | `upper_arm`, `forearm`, `upper_cover`, `fore_cover` | 16 h 50 min | 232 g | 48 mm |
 | 6 | TPU 95A | 3 `ponta_TPU` (outra máquina: Bambu ou CORE ONE) | poucos min | < 1 g | 1,5 mm |
 
@@ -65,12 +65,12 @@ Se o laboratório usar uma versão mais nova do PrusaSlicer, abra o `.3mf` e fat
 ## Dicas para PETG no MK3S+
 
 - Use a **chapa texturizada** se tiver; na lisa, passe cola bastão para o PETG não arrancar o PEI.
-- O carretel preto precisa ter **pelo menos ~900 g** para os lotes 3 a 5. Se o carretel estiver no fim, comece o lote 3 (o maior, 357 g) num carretel novo.
+- O carretel preto precisa ter **pelo menos ~860 g** para os lotes 3 a 5. Se o carretel estiver no fim, comece o lote 3 (o maior, 337 g) num carretel novo.
 - O lote 3 tem ~21,5 h. Se o laboratório não deixar uma impressão desse tamanho, separe em dois: só a `turret` (~13 h) e o resto da garra (~8,5 h).
 
 ## O que mudou na revisão 2
 
-- **`servo_cap` corrigida (v0.2d).** Os frisos de baixo encostavam na tampa só numa linha, porque o chanfro de 1,5 mm comia a largura toda do friso. Agora o friso sobe 1,5 mm para dentro do corpo e a peça é um corpo só (antes eram 3). Medidas externas iguais. Mudança em `02_cad_fonte/cad/parts.py` (`servo_cap`), STL novo em `01_imprimir/02_braco/servo_cap_x3.stl`; o antigo foi para `99_arquivo`.
+- **`servo_cap` corrigida (v0.2d).** Os frisos de baixo encostavam na tampa só numa linha, porque o chanfro de 1,5 mm comia a largura toda do friso. Agora o friso sobe 1,5 mm para dentro do corpo e a peça é um corpo só (antes eram 3). Medidas externas iguais. Mudança em `02_cad_fonte/cad/parts.py` (`servo_cap`), STL novo em `01_imprimir/02_braco/servo_cap_x4.stl` (era `_x3`); o antigo foi para `99_arquivo`.
 - **Mais rápido:** suporte justo + preenchimento combinado tiraram ~5,5 h e ~38 g, sem mudar perfil nem camada.
 - **Encaixe nas mesas:** as 3 mesas pretas já usam 57 a 66% da área (contando o contorno das peças), o resto é o espaço mínimo entre peças com suporte. Não dá para tirar uma mesa preta: base (180 × 160) e torre (132 × 132) não cabem juntas, e braço + antebraço (205 e 195 mm) enchem uma mesa. As mesas laranja ficam vazias de propósito, porque só cabe nelas o que não depende do cupom.
 - Juntar mais peças numa mesa quase não reduz o tempo total: a máquina gasta o mesmo tempo por peça. O ganho por mesa a menos é só aquecer e nivelar (~5 a 10 min).
@@ -96,15 +96,20 @@ Se o laboratório usar uma versão mais nova do PrusaSlicer, abra o `.3mf` e fat
 | 1 | laranja | 45 g |
 | 2 | laranja | 10 g |
 | 3 | preto | 337 g |
-| 4 | preto | 273 g |
+| 4 | preto | 283 g |
 | 5 | preto | 232 g |
 | 6 | TPU | < 1 g |
-| **Total PETG** | | **897 g** (55 g laranja + 842 g preto) |
+| **Total PETG** | | **907 g** (55 g laranja + 852 g preto) |
 
-Valores do PrusaSlicer, incluindo saia, linha de purga e suportes. Para o pedido ao supervisor, some uns 10% de margem para falha ou reimpressão: **~990 g, ou seja, 1 kg**.
+Valores do PrusaSlicer, incluindo saia, linha de purga e suportes. Para o pedido ao supervisor, some uns 10% de margem para falha ou reimpressão: **~1.000 g, ou seja, 1 kg**.
 
 ## Opções avaliadas e não aplicadas
 
 - **Camada 0,30 mm (perfil 0.30mm DRAFT):** lote 3 cai de ~21,5 h para ~19,5 h e o lote 5 de ~17 h para ~15 h (cerca de −15%), mas gasta ~10% mais filamento e o acabamento fica mais grosso. Se usar, o cupom tem que sair com o mesmo perfil.
 - **Juntar o disco no lote 1:** economiza uma mesa (~43 min + aquecimento). O risco é que o disco tem furos passantes e o rasgo da espiral; se o cupom mudar o valor do passante, ele tem que ser reimpresso (10 g).
 - **3 perímetros:** ~4% mais rápido, mas sai da recomendação de 4 perímetros nas peças de carga.
+
+## Revisão 4 (18/11, 21h)
+
+- **Faltava 1 `servo_cap`.** A montagem tem 4 tampas (2 no ombro, cotovelo, punho) e os lotes 3 e 4 somavam 3. **Lote 4 refeito com 3 tampas** (1 no lote 3 + 3 no lote 4 = 4). Para caber, a `base_shell` foi girada 90° e as tampas ficaram empilhadas na coluna da direita, com as presilhas em cima. Passou de 18 h 23 min / 273 g para 19 h 06 min / 283 g (+43 min, +10 g). Os lotes 1, 2, 3 e 5 não mudaram.
+- Nenhuma outra peça fatiada mudou nesta revisão: os arquivos novos de laser (`01_imprimir/05_laser_acrilico`) e o mapa de parafusos não mexem em STL.

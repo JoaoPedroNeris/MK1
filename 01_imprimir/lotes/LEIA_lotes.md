@@ -75,6 +75,10 @@ Se o laboratório usar uma versão mais nova do PrusaSlicer, abra o `.3mf` e fat
 - **Encaixe nas mesas:** as 3 mesas pretas já usam 57 a 66% da área (contando o contorno das peças), o resto é o espaço mínimo entre peças com suporte. Não dá para tirar uma mesa preta: base (180 × 160) e torre (132 × 132) não cabem juntas, e braço + antebraço (205 e 195 mm) enchem uma mesa. As mesas laranja ficam vazias de propósito, porque só cabe nelas o que não depende do cupom.
 - Juntar mais peças numa mesa quase não reduz o tempo total: a máquina gasta o mesmo tempo por peça. O ganho por mesa a menos é só aquecer e nivelar (~5 a 10 min).
 
+## Revisão 3 (18/11, 20h50)
+
+- Lote 3 refeito com a `garra_base` nova (furo central do horn 9 → 6,5 mm, `01_imprimir/03_garra/garra_base.stl`). Mesma orientação e posição. Tempo 21 h 34 min e 337 g, praticamente iguais (+0,2 g).
+
 ## Avaliação estrutural e funcional (18/11, 20h30)
 
 | Mudança | Situação | Por quê |

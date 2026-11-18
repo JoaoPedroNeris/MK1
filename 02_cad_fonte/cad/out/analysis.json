@@ -1,0 +1,58 @@
+{
+  "grupos": {
+    "upper": {
+      "massa_g": 136.6,
+      "cg_x_mm": 106.5,
+      "cg_z_mm": 0.2
+    },
+    "fore": {
+      "massa_g": 130.5,
+      "cg_x_mm": 100.7,
+      "cg_z_mm": -0.2
+    },
+    "hand": {
+      "massa_g": 160.1,
+      "cg_x_mm": 67.9,
+      "cg_z_mm": 5.4
+    }
+  },
+  "faixa_livre_graus": {
+    "ombro": {
+      "+": 92.5,
+      "-": -27.5
+    },
+    "cotovelo": {
+      "+": 117.5,
+      "-": -117.5
+    },
+    "punho": {
+      "+": 117.5,
+      "-": -117.5
+    }
+  },
+  "pior_torque_kgcm_sem_mola": {
+    "ombro": 15.14,
+    "cotovelo": 7.44,
+    "punho": 2.31
+  },
+  "mola": {
+    "furo_coluna_mm_acima_do_eixo": 34.0,
+    "furo_braco_mm": 100.0,
+    "comprimento_livre_mm": 60.0,
+    "tensao_inicial_N": 6.0,
+    "constante_N_por_mm": 0.35,
+    "comprimento_min_max_mm": [
+      65.1,
+      127.7
+    ],
+    "forca_max_N": 29.7,
+    "pior_torque_ombro_kgcm_com_mola": 6.49
+  },
+  "limite_nominal_kgcm": 10.0,
+  "braco_esticado_horizontal_kgcm": [
+    -15.23,
+    -7.52,
+    -2.31
+  ],
+  "alcance_ponta_dedos_mm": 462.0
+}

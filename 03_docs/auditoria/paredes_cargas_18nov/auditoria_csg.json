@@ -1,0 +1,831 @@
+{
+ "upper_arm (braço)": [
+  {
+   "nome": "tampa servo frente",
+   "tipo": "inserto",
+   "furo_vazio": true,
+   "parede_min": 0.12,
+   "parede_meio": 0.92,
+   "na_profundidade": 1.2,
+   "direcao": [
+    0.98,
+    0.17,
+    0.0
+   ],
+   "fundo": 14.93
+  },
+  {
+   "nome": "tampa servo tras +Y",
+   "tipo": "inserto",
+   "furo_vazio": true,
+   "parede_min": 0.12,
+   "parede_meio": 0.92,
+   "na_profundidade": 1.2,
+   "direcao": [
+    -0.98,
+    -0.17,
+    0.0
+   ],
+   "fundo": 14.93
+  },
+  {
+   "nome": "tampa servo tras -Y",
+   "tipo": "inserto",
+   "furo_vazio": true,
+   "parede_min": 0.12,
+   "parede_meio": 0.92,
+   "na_profundidade": 1.2,
+   "direcao": [
+    -0.98,
+    -0.17,
+    0.0
+   ],
+   "fundo": 14.93
+  },
+  {
+   "nome": "tampa de baixo (lado do garfo)",
+   "tipo": "inserto",
+   "furo_vazio": true,
+   "parede_min": 0.92,
+   "parede_meio": 0.92,
+   "na_profundidade": 1.2,
+   "direcao": [
+    0.98,
+    -0.17,
+    -0.0
+   ],
+   "fundo": 5.52
+  },
+  {
+   "nome": "tampa de baixo (lado do bolso)",
+   "tipo": "inserto",
+   "furo_vazio": true,
+   "parede_min": 0.02,
+   "parede_meio": 0.62,
+   "na_profundidade": 4.7,
+   "direcao": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "fundo": 0.03
+  },
+  {
+   "nome": "horn garfo +Y 45°",
+   "tipo": "passante",
+   "furo_vazio": false,
+   "parede_min": 14.93,
+   "parede_meio": 14.93,
+   "na_profundidade": 1.2,
+   "direcao": [
+    0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "nome": "horn garfo +Y 135°",
+   "tipo": "passante",
+   "furo_vazio": false,
+   "parede_min": 14.93,
+   "parede_meio": 14.93,
+   "na_profundidade": 1.2,
+   "direcao": [
+    0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "nome": "horn garfo +Y 225°",
+   "tipo": "passante",
+   "furo_vazio": false,
+   "parede_min": 14.93,
+   "parede_meio": 14.93,
+   "na_profundidade": 1.2,
+   "direcao": [
+    0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "nome": "horn garfo +Y 315°",
+   "tipo": "passante",
+   "furo_vazio": false,
+   "parede_min": 14.93,
+   "parede_meio": 14.93,
+   "na_profundidade": 1.2,
+   "direcao": [
+    0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "nome": "horn garfo -Y 45°",
+   "tipo": "passante",
+   "furo_vazio": false,
+   "parede_min": 14.93,
+   "parede_meio": 14.93,
+   "na_profundidade": 1.2,
+   "direcao": [
+    -0.0,
+    0.0,
+    1.0
+   ]
+  },
+  {
+   "nome": "horn garfo -Y 135°",
+   "tipo": "passante",
+   "furo_vazio": false,
+   "parede_min": 14.93,
+   "parede_meio": 14.93,
+   "na_profundidade": 1.2,
+   "direcao": [
+    -0.0,
+    0.0,
+    1.0
+   ]
+  },
+  {
+   "nome": "horn garfo -Y 225°",
+   "tipo": "passante",
+   "furo_vazio": false,
+   "parede_min": 14.93,
+   "parede_meio": 14.93,
+   "na_profundidade": 1.2,
+   "direcao": [
+    -0.0,
+    0.0,
+    1.0
+   ]
+  },
+  {
+   "nome": "horn garfo -Y 315°",
+   "tipo": "passante",
+   "furo_vazio": false,
+   "parede_min": 14.93,
+   "parede_meio": 14.93,
+   "na_profundidade": 1.2,
+   "direcao": [
+    -0.0,
+    0.0,
+    1.0
+   ]
+  }
+ ],
+ "forearm (antebraço)": [
+  {
+   "nome": "tampa servo frente",
+   "tipo": "inserto",
+   "furo_vazio": true,
+   "parede_min": 0.12,
+   "parede_meio": 0.92,
+   "na_profundidade": 1.2,
+   "direcao": [
+    0.98,
+    0.17,
+    0.0
+   ],
+   "fundo": 14.93
+  },
+  {
+   "nome": "tampa servo tras +Y",
+   "tipo": "inserto",
+   "furo_vazio": true,
+   "parede_min": 0.12,
+   "parede_meio": 0.92,
+   "na_profundidade": 1.2,
+   "direcao": [
+    -0.98,
+    -0.17,
+    0.0
+   ],
+   "fundo": 14.93
+  },
+  {
+   "nome": "tampa servo tras -Y",
+   "tipo": "inserto",
+   "furo_vazio": true,
+   "parede_min": 0.12,
+   "parede_meio": 0.92,
+   "na_profundidade": 1.2,
+   "direcao": [
+    -0.98,
+    -0.17,
+    0.0
+   ],
+   "fundo": 14.93
+  },
+  {
+   "nome": "tampa de baixo (lado do garfo)",
+   "tipo": "inserto",
+   "furo_vazio": true,
+   "parede_min": 0.92,
+   "parede_meio": 0.92,
+   "na_profundidade": 1.2,
+   "direcao": [
+    0.98,
+    -0.17,
+    -0.0
+   ],
+   "fundo": 5.52
+  },
+  {
+   "nome": "tampa de baixo (lado do bolso)",
+   "tipo": "inserto",
+   "furo_vazio": true,
+   "parede_min": 0.02,
+   "parede_meio": 0.62,
+   "na_profundidade": 4.7,
+   "direcao": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "fundo": 0.03
+  },
+  {
+   "nome": "horn garfo +Y 45°",
+   "tipo": "passante",
+   "furo_vazio": true,
+   "parede_min": 0.83,
+   "parede_meio": 0.83,
+   "na_profundidade": 1.2,
+   "direcao": [
+    -0.64,
+    0.0,
+    -0.77
+   ]
+  },
+  {
+   "nome": "horn garfo +Y 135°",
+   "tipo": "passante",
+   "furo_vazio": true,
+   "parede_min": 0.83,
+   "parede_meio": 0.83,
+   "na_profundidade": 1.2,
+   "direcao": [
+    0.77,
+    0.0,
+    -0.64
+   ]
+  },
+  {
+   "nome": "horn garfo +Y 225°",
+   "tipo": "passante",
+   "furo_vazio": true,
+   "parede_min": 0.83,
+   "parede_meio": 0.83,
+   "na_profundidade": 1.2,
+   "direcao": [
+    0.64,
+    -0.0,
+    0.77
+   ]
+  },
+  {
+   "nome": "horn garfo +Y 315°",
+   "tipo": "passante",
+   "furo_vazio": true,
+   "parede_min": 0.83,
+   "parede_meio": 0.83,
+   "na_profundidade": 1.2,
+   "direcao": [
+    -0.77,
+    0.0,
+    0.64
+   ]
+  },
+  {
+   "nome": "horn garfo -Y 45°",
+   "tipo": "passante",
+   "furo_vazio": true,
+   "parede_min": 0.83,
+   "parede_meio": 0.83,
+   "na_profundidade": 1.2,
+   "direcao": [
+    -0.77,
+    -0.0,
+    -0.64
+   ]
+  },
+  {
+   "nome": "horn garfo -Y 135°",
+   "tipo": "passante",
+   "furo_vazio": true,
+   "parede_min": 0.83,
+   "parede_meio": 0.83,
+   "na_profundidade": 1.2,
+   "direcao": [
+    0.64,
+    0.0,
+    -0.77
+   ]
+  },
+  {
+   "nome": "horn garfo -Y 225°",
+   "tipo": "passante",
+   "furo_vazio": true,
+   "parede_min": 0.83,
+   "parede_meio": 0.83,
+   "na_profundidade": 1.2,
+   "direcao": [
+    0.77,
+    0.0,
+    0.64
+   ]
+  },
+  {
+   "nome": "horn garfo -Y 315°",
+   "tipo": "passante",
+   "furo_vazio": true,
+   "parede_min": 0.83,
+   "parede_meio": 0.83,
+   "na_profundidade": 1.2,
+   "direcao": [
+    -0.64,
+    0.0,
+    0.77
+   ]
+  }
+ ],
+ "turret (torre)": [
+  {
+   "nome": "tampa servo frente (servo +Y)",
+   "tipo": "inserto",
+   "furo_vazio": true,
+   "parede_min": 0.12,
+   "parede_meio": 0.92,
+   "na_profundidade": 1.2,
+   "direcao": [
+    0.98,
+    0.17,
+    0.0
+   ],
+   "fundo": 14.93
+  },
+  {
+   "nome": "tampa servo tras +Y (servo +Y)",
+   "tipo": "inserto",
+   "furo_vazio": true,
+   "parede_min": 0.12,
+   "parede_meio": 0.92,
+   "na_profundidade": 1.2,
+   "direcao": [
+    -0.98,
+    -0.17,
+    0.0
+   ],
+   "fundo": 14.93
+  },
+  {
+   "nome": "tampa servo tras -Y (servo +Y)",
+   "tipo": "inserto",
+   "furo_vazio": true,
+   "parede_min": 0.12,
+   "parede_meio": 0.92,
+   "na_profundidade": 1.2,
+   "direcao": [
+    -0.98,
+    -0.17,
+    0.0
+   ],
+   "fundo": 8.23
+  },
+  {
+   "nome": "tampa servo frente (servo -Y)",
+   "tipo": "inserto",
+   "furo_vazio": true,
+   "parede_min": 0.12,
+   "parede_meio": 0.92,
+   "na_profundidade": 1.2,
+   "direcao": [
+    0.98,
+    0.17,
+    0.0
+   ],
+   "fundo": 14.93
+  },
+  {
+   "nome": "tampa servo tras +Y (servo -Y)",
+   "tipo": "inserto",
+   "furo_vazio": true,
+   "parede_min": 0.12,
+   "parede_meio": 0.92,
+   "na_profundidade": 1.2,
+   "direcao": [
+    -0.98,
+    -0.17,
+    0.0
+   ],
+   "fundo": 8.23
+  },
+  {
+   "nome": "tampa servo tras -Y (servo -Y)",
+   "tipo": "inserto",
+   "furo_vazio": true,
+   "parede_min": 0.12,
+   "parede_meio": 0.92,
+   "na_profundidade": 1.2,
+   "direcao": [
+    -0.98,
+    -0.17,
+    0.0
+   ],
+   "fundo": 14.93
+  },
+  {
+   "nome": "horn do giro 45° (autoatarr.)",
+   "tipo": "piloto",
+   "furo_vazio": true,
+   "parede_min": 1.23,
+   "parede_meio": 1.23,
+   "na_profundidade": 1.2,
+   "direcao": [
+    -0.77,
+    -0.64,
+    0.0
+   ],
+   "fundo": 14.93
+  },
+  {
+   "nome": "horn do giro 135° (autoatarr.)",
+   "tipo": "piloto",
+   "furo_vazio": true,
+   "parede_min": 1.23,
+   "parede_meio": 1.23,
+   "na_profundidade": 1.2,
+   "direcao": [
+    0.64,
+    -0.77,
+    -0.0
+   ],
+   "fundo": 14.93
+  },
+  {
+   "nome": "horn do giro 225° (autoatarr.)",
+   "tipo": "piloto",
+   "furo_vazio": true,
+   "parede_min": 1.23,
+   "parede_meio": 1.23,
+   "na_profundidade": 1.2,
+   "direcao": [
+    0.77,
+    0.64,
+    0.0
+   ],
+   "fundo": 14.93
+  },
+  {
+   "nome": "horn do giro 315° (autoatarr.)",
+   "tipo": "piloto",
+   "furo_vazio": true,
+   "parede_min": 1.23,
+   "parede_meio": 1.23,
+   "na_profundidade": 1.2,
+   "direcao": [
+    -0.64,
+    0.77,
+    0.0
+   ],
+   "fundo": 14.93
+  },
+  {
+   "nome": "presilha do cabo (bloco)",
+   "tipo": "inserto",
+   "furo_vazio": true,
+   "parede_min": 3.62,
+   "parede_meio": 3.92,
+   "na_profundidade": 1.2,
+   "direcao": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "fundo": 5.52
+  }
+ ],
+ "base_shell (caixa da base)": [
+  {
+   "nome": "coluna 1 topo (tampa)",
+   "tipo": "inserto",
+   "furo_vazio": true,
+   "parede_min": 2.92,
+   "parede_meio": 2.92,
+   "na_profundidade": 1.2,
+   "direcao": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "fundo": 14.93
+  },
+  {
+   "nome": "coluna 1 fundo (placa)",
+   "tipo": "inserto",
+   "furo_vazio": true,
+   "parede_min": 2.32,
+   "parede_meio": 2.92,
+   "na_profundidade": 1.2,
+   "direcao": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "fundo": 14.93
+  },
+  {
+   "nome": "coluna 2 topo (tampa)",
+   "tipo": "inserto",
+   "furo_vazio": true,
+   "parede_min": 2.92,
+   "parede_meio": 2.92,
+   "na_profundidade": 1.2,
+   "direcao": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "fundo": 14.93
+  },
+  {
+   "nome": "coluna 2 fundo (placa)",
+   "tipo": "inserto",
+   "furo_vazio": true,
+   "parede_min": 2.32,
+   "parede_meio": 2.92,
+   "na_profundidade": 1.2,
+   "direcao": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "fundo": 14.93
+  },
+  {
+   "nome": "coluna 3 topo (tampa)",
+   "tipo": "inserto",
+   "furo_vazio": true,
+   "parede_min": 2.92,
+   "parede_meio": 2.92,
+   "na_profundidade": 1.2,
+   "direcao": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "fundo": 14.93
+  },
+  {
+   "nome": "coluna 3 fundo (placa)",
+   "tipo": "inserto",
+   "furo_vazio": true,
+   "parede_min": 2.32,
+   "parede_meio": 2.92,
+   "na_profundidade": 1.2,
+   "direcao": [
+    -1.0,
+    0.09,
+    0.0
+   ],
+   "fundo": 14.93
+  },
+  {
+   "nome": "coluna 4 topo (tampa)",
+   "tipo": "inserto",
+   "furo_vazio": true,
+   "parede_min": 2.92,
+   "parede_meio": 2.92,
+   "na_profundidade": 1.2,
+   "direcao": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "fundo": 14.93
+  },
+  {
+   "nome": "coluna 4 fundo (placa)",
+   "tipo": "inserto",
+   "furo_vazio": true,
+   "parede_min": 2.32,
+   "parede_meio": 2.92,
+   "na_profundidade": 1.2,
+   "direcao": [
+    1.0,
+    -0.09,
+    -0.0
+   ],
+   "fundo": 14.93
+  },
+  {
+   "nome": "suporte UNO 1 (autoatarr.)",
+   "tipo": "piloto",
+   "furo_vazio": true,
+   "parede_min": 1.93,
+   "parede_meio": 1.93,
+   "na_profundidade": 1.2,
+   "direcao": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "fundo": 2.23
+  },
+  {
+   "nome": "suporte UNO 2 (autoatarr.)",
+   "tipo": "piloto",
+   "furo_vazio": true,
+   "parede_min": 1.93,
+   "parede_meio": 1.93,
+   "na_profundidade": 1.2,
+   "direcao": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "fundo": 2.23
+  },
+  {
+   "nome": "suporte UNO 3 (autoatarr.)",
+   "tipo": "piloto",
+   "furo_vazio": true,
+   "parede_min": 1.93,
+   "parede_meio": 1.93,
+   "na_profundidade": 1.2,
+   "direcao": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "fundo": 2.23
+  },
+  {
+   "nome": "suporte UNO 4 (autoatarr.)",
+   "tipo": "piloto",
+   "furo_vazio": true,
+   "parede_min": 1.93,
+   "parede_meio": 1.93,
+   "na_profundidade": 1.2,
+   "direcao": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "fundo": 2.23
+  }
+ ],
+ "servo_cap (tampa do servo, x3)": [
+  {
+   "nome": "parafuso frente",
+   "tipo": "passante",
+   "furo_vazio": true,
+   "parede_min": 0.03,
+   "parede_meio": 0.53,
+   "na_profundidade": 2.2,
+   "direcao": [
+    0.98,
+    0.17,
+    0.0
+   ]
+  },
+  {
+   "nome": "rebaixo da cabeça frente",
+   "tipo": "rebaixo",
+   "furo_vazio": true,
+   "parede_min": 0.02,
+   "parede_meio": 0.02,
+   "na_profundidade": 0.5,
+   "direcao": [
+    0.64,
+    0.77,
+    0.0
+   ]
+  },
+  {
+   "nome": "parafuso tras +Y",
+   "tipo": "passante",
+   "furo_vazio": true,
+   "parede_min": 0.03,
+   "parede_meio": 0.53,
+   "na_profundidade": 2.2,
+   "direcao": [
+    -0.98,
+    -0.17,
+    0.0
+   ]
+  },
+  {
+   "nome": "rebaixo da cabeça tras +Y",
+   "tipo": "rebaixo",
+   "furo_vazio": true,
+   "parede_min": 0.02,
+   "parede_meio": 0.02,
+   "na_profundidade": 0.5,
+   "direcao": [
+    -0.64,
+    -0.77,
+    0.0
+   ]
+  },
+  {
+   "nome": "parafuso tras -Y",
+   "tipo": "passante",
+   "furo_vazio": true,
+   "parede_min": 0.03,
+   "parede_meio": 0.53,
+   "na_profundidade": 2.2,
+   "direcao": [
+    -0.98,
+    -0.17,
+    0.0
+   ]
+  },
+  {
+   "nome": "rebaixo da cabeça tras -Y",
+   "tipo": "rebaixo",
+   "furo_vazio": true,
+   "parede_min": 0.02,
+   "parede_meio": 0.02,
+   "na_profundidade": 0.5,
+   "direcao": [
+    -0.64,
+    -0.77,
+    0.0
+   ]
+  }
+ ],
+ "upper_cover (tampa de baixo)": [
+  {
+   "nome": "parafuso garfo",
+   "tipo": "passante",
+   "furo_vazio": true,
+   "parede_min": 2.63,
+   "parede_meio": 3.23,
+   "na_profundidade": 2.7,
+   "direcao": [
+    -1.0,
+    -0.09,
+    0.0
+   ]
+  },
+  {
+   "nome": "parafuso bolso",
+   "tipo": "passante",
+   "furo_vazio": true,
+   "parede_min": 2.63,
+   "parede_meio": 3.23,
+   "na_profundidade": 2.7,
+   "direcao": [
+    1.0,
+    0.09,
+    0.0
+   ]
+  }
+ ],
+ "fore_cover (tampa de baixo)": [
+  {
+   "nome": "parafuso garfo",
+   "tipo": "passante",
+   "furo_vazio": true,
+   "parede_min": 2.63,
+   "parede_meio": 3.23,
+   "na_profundidade": 2.7,
+   "direcao": [
+    -1.0,
+    -0.09,
+    0.0
+   ]
+  },
+  {
+   "nome": "parafuso bolso",
+   "tipo": "passante",
+   "furo_vazio": true,
+   "parede_min": 2.63,
+   "parede_meio": 3.23,
+   "na_profundidade": 2.7,
+   "direcao": [
+    1.0,
+    0.09,
+    0.0
+   ]
+  }
+ ],
+ "presilha_cabo (x7)": [
+  {
+   "nome": "parafuso",
+   "tipo": "passante",
+   "furo_vazio": true,
+   "parede_min": 3.23,
+   "parede_meio": 3.33,
+   "na_profundidade": 5.7,
+   "direcao": [
+    0.0,
+    -1.0,
+    0.0
+   ]
+  }
+ ]
+}

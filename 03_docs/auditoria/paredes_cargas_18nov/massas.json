@@ -1,0 +1,248 @@
+{
+ "otimista (25% preench.)": {
+  "upper": [
+   [
+    "elo",
+    65.8,
+    61.0
+   ],
+   [
+    "tampa baixo",
+    7.1,
+    80.3
+   ],
+   [
+    "2 placas laranja",
+    7.4,
+    78.3
+   ],
+   [
+    "tampa servo",
+    9.6,
+    148.6
+   ],
+   [
+    "servo distal",
+    55.0,
+    148.4
+   ],
+   [
+    "2 presilhas",
+    2.6,
+    80.0
+   ],
+   [
+    "parafusos+insertos (~12)",
+    10.8,
+    80.0
+   ],
+   [
+    "cabo do barramento",
+    10.0,
+    80.0
+   ]
+  ],
+  "fore": [
+   [
+    "elo",
+    53.9,
+    62.6
+   ],
+   [
+    "tampa baixo",
+    6.3,
+    75.1
+   ],
+   [
+    "2 placas laranja",
+    6.4,
+    73.3
+   ],
+   [
+    "tampa servo",
+    9.6,
+    138.6
+   ],
+   [
+    "servo distal",
+    55.0,
+    138.4
+   ],
+   [
+    "2 presilhas",
+    2.6,
+    75.0
+   ],
+   [
+    "parafusos+insertos (~12)",
+    10.8,
+    75.0
+   ],
+   [
+    "cabo do barramento",
+    10.0,
+    75.0
+   ]
+  ],
+  "garra": [
+   [
+    "garra_base",
+    44.7,
+    33.6
+   ],
+   [
+    "carcaca",
+    18.2,
+    74.3
+   ],
+   [
+    "disco_espiral",
+    10.3,
+    77.0
+   ],
+   [
+    "placa_guia",
+    20.8,
+    83.5
+   ],
+   [
+    "3 mordentes",
+    7.0,
+    95.1
+   ],
+   [
+    "servo da garra",
+    55.0,
+    54.0
+   ],
+   [
+    "presilha+parafusos+TPU",
+    13.1,
+    40
+   ]
+  ]
+ },
+ "pessimista (40-60% preench.)": {
+  "upper": [
+   [
+    "elo",
+    89.7,
+    61.0
+   ],
+   [
+    "tampa baixo",
+    8.4,
+    80.3
+   ],
+   [
+    "2 placas laranja",
+    7.4,
+    78.3
+   ],
+   [
+    "tampa servo",
+    11.4,
+    148.6
+   ],
+   [
+    "servo distal",
+    55.0,
+    148.4
+   ],
+   [
+    "2 presilhas",
+    2.6,
+    80.0
+   ],
+   [
+    "parafusos+insertos (~12)",
+    10.8,
+    80.0
+   ],
+   [
+    "cabo do barramento",
+    10.0,
+    80.0
+   ]
+  ],
+  "fore": [
+   [
+    "elo",
+    73.5,
+    62.6
+   ],
+   [
+    "tampa baixo",
+    7.5,
+    75.1
+   ],
+   [
+    "2 placas laranja",
+    6.4,
+    73.3
+   ],
+   [
+    "tampa servo",
+    11.4,
+    138.6
+   ],
+   [
+    "servo distal",
+    55.0,
+    138.4
+   ],
+   [
+    "2 presilhas",
+    2.6,
+    75.0
+   ],
+   [
+    "parafusos+insertos (~12)",
+    10.8,
+    75.0
+   ],
+   [
+    "cabo do barramento",
+    10.0,
+    75.0
+   ]
+  ],
+  "garra": [
+   [
+    "garra_base",
+    61.0,
+    33.6
+   ],
+   [
+    "carcaca",
+    21.7,
+    74.3
+   ],
+   [
+    "disco_espiral",
+    12.2,
+    77.0
+   ],
+   [
+    "placa_guia",
+    24.8,
+    83.5
+   ],
+   [
+    "3 mordentes",
+    7.0,
+    95.1
+   ],
+   [
+    "servo da garra",
+    55.0,
+    54.0
+   ],
+   [
+    "presilha+parafusos+TPU",
+    13.1,
+    40
+   ]
+  ]
+ }
+}

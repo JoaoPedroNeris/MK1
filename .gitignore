@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Malhas pesadas de visualização (regeráveis com 02_cad_fonte/cad/montagem_v02.py)
+05_visualizacao_fusion/**
+!05_visualizacao_fusion/README.md
+99_arquivo/v0.2_original/montagem_v02a_com_mastro_OBSOLETA/
+
+# G-code é gerado a partir dos .3mf (fatiar de novo no PrusaSlicer)
+*.gcode
+*.bgcode
+
+# Saídas temporárias do CAD
+02_cad_fonte/cad/out/*.stl
+
+# Sistema / editores
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+~$*
+.vscode/
+.idea/
+
+# Segredos (nunca subir)
+.env
+*.env
+*.key
+*.pem
+credentials*.json

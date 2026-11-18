@@ -1,0 +1,111 @@
+{
+ "pega_na_mesa": [
+  {
+   "r": 120,
+   "ombro": 69,
+   "cotovelo": -134,
+   "punho": -25,
+   "t0": [
+    4.2,
+    1.8,
+    0.0
+   ],
+   "max50": 1309,
+   "max70": 838,
+   "max_folga": 648
+  },
+  {
+   "r": 160,
+   "ombro": 61,
+   "cotovelo": -118,
+   "punho": -33,
+   "t0": [
+    5.7,
+    2.3,
+    0.0
+   ],
+   "max50": 895,
+   "max70": 538,
+   "max_folga": 395
+  },
+  {
+   "r": 200,
+   "ombro": 51,
+   "cotovelo": -100,
+   "punho": -42,
+   "t0": [
+    7.1,
+    2.8,
+    0.0
+   ],
+   "max50": 644,
+   "max70": 358,
+   "max_folga": 244
+  },
+  {
+   "r": 240,
+   "ombro": 41,
+   "cotovelo": -78,
+   "punho": -52,
+   "t0": [
+    8.6,
+    3.3,
+    0.0
+   ],
+   "max50": 477,
+   "max70": 238,
+   "max_folga": 143
+  },
+  {
+   "r": 280,
+   "ombro": 27,
+   "cotovelo": -51,
+   "punho": -67,
+   "t0": [
+    10.0,
+    3.9,
+    0.0
+   ],
+   "max50": 357,
+   "max70": 153,
+   "max_folga": 71
+  }
+ ],
+ "viga": {
+  "I_mm4": 37599,
+  "c_mm": 21.9,
+  "W_mm3": 1714
+ },
+ "p0": {
+  "M_ombro_Nmm": 1188,
+  "sigma_viga_MPa": 0.69,
+  "sigma_garfo_MPa": 0.62,
+  "parafuso_horn_N": 21,
+  "deflexao_PETG_mm": 0.63,
+  "folga_servos_mm": 7.2
+ },
+ "p100": {
+  "M_ombro_Nmm": 1612,
+  "sigma_viga_MPa": 0.94,
+  "sigma_garfo_MPa": 0.84,
+  "parafuso_horn_N": 29,
+  "deflexao_PETG_mm": 0.93,
+  "folga_servos_mm": 7.2
+ },
+ "p250": {
+  "M_ombro_Nmm": 2247,
+  "sigma_viga_MPa": 1.31,
+  "sigma_garfo_MPa": 1.17,
+  "parafuso_horn_N": 40,
+  "deflexao_PETG_mm": 1.37,
+  "folga_servos_mm": 7.2
+ },
+ "p500": {
+  "M_ombro_Nmm": 3307,
+  "sigma_viga_MPa": 1.93,
+  "sigma_garfo_MPa": 1.72,
+  "parafuso_horn_N": 59,
+  "deflexao_PETG_mm": 2.11,
+  "folga_servos_mm": 7.2
+ }
+}

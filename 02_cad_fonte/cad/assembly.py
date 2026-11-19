@@ -24,7 +24,7 @@ PARTS = {
     "base_lid":        (P.base_lid, 1, "Corte a laser", "Acrilico laranja 1/4\"", 1.19, 1.0, ORANGE_ACR),
     "base_shell":      (P.base_shell, 1, "FDM", "PETG preto", 1.27, 0.55, BLACK),
     "turret":          (P.turret, 1, "FDM", "PETG preto", 1.27, 0.55, BLACK),
-    "servo_cap":       (P.servo_cap, 3, "FDM", "PETG preto", 1.27, 0.7, BLACK),
+    "servo_cap":       (P.servo_cap, 4, "FDM", "PETG preto", 1.27, 0.7, BLACK),
     "upper_arm":       (P.upper_arm, 1, "FDM", "PETG preto", 1.27, 0.55, BLACK),
     "upper_cover":     (lambda: P.belly_cover(L1), 1, "FDM", "PETG preto", 1.27, 0.8, BLACK),
     "upper_armor":     (lambda: P.armor(L1), 2, "FDM", "PETG laranja", 1.27, 0.9, ORANGE),

@@ -71,7 +71,7 @@ def pocket():
 
 
 def servo_cap():
-    """Tampa do bolso (metade de cima). A mesma peca serve para as 3 juntas."""
+    """Tampa do bolso (metade de cima). A mesma peca serve para os 4 bolsos (2 do ombro, cotovelo, punho): imprimir 4."""
     body = bx(PX0, PX1, -POCKET_Y, POCKET_Y, POCKET_Z, PZ, c=1.5) & _front_round()
     # v0.2d: frisos sobem 1,5 mm para dentro do corpo; antes o chanfro c=1,5 da borda de baixo
     # comia a largura toda do friso (1,5 mm) e ele so encostava numa linha (soltava na impressao)
@@ -289,7 +289,7 @@ def base_shell():
         cuts.append(Cyl(PILOT_M3 / 2, 10).move(UNO_O[0] + hx, UNO_O[1] + hy, WALL + 4))
     # painel traseiro: conector 12 V e passagem dos USB
     cuts.append(CylX(6.0, 10).move(-X, -40, 26))
-    cuts.append(bx(-X - 2, -X + WALL + 2, 40, 62, 19, 33))
+    cuts.append(bx(-X - 2, -X + WALL + 2, 42, 66, 8, 34))   # v0.2e (19/11): janela maior, plugue USB-B do UNO passa (antes y 40-62, z 19-33)
     # ventilacao nas laterais
     for s in (1, -1):
         for x in (-62, -50, -38, 38, 50, 62):

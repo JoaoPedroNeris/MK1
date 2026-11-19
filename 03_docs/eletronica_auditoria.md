@@ -175,7 +175,7 @@ Fontes: [datasheet do STS3215 (Core Electronics)](https://core-electronics.com.a
 ### Agora: eu
 1. ~~Lista de compra, auditoria e script de encaixe~~ (feito).
 2. ~~Alterar a janela em `base_shell()`, exportar o STL e atualizar o lote 4~~ (feito em 19/11).
-3. Enquanto a compra não chega: escrever o script Python de configuração dos servos (IDs, limites, offsets, sentido do ombro B, proteções; seção 5) e o sketch do Arduino (relé, leitura dos 12 V, botão PARAR).
+3. ~~Escrever o script de configuração dos servos e o sketch do Arduino~~ (feito em 19/11, em `06_software/`; ainda não testados com hardware).
 
 ### Depois do cupom: você
 1. Me mandar os números que venceram (inserto, passante, piloto e bolso do servo).

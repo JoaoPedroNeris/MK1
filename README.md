@@ -13,6 +13,7 @@ Organizada em 18/11/2026. Nada foi apagado: o que saiu do caminho está em `99_a
 | `02_cad_fonte/fusion_scripts/` | Scripts do Fusion: garra, cupom de teste, importar montagem. Já apontam para as pastas novas. | Para mexer na garra ou no cupom no Fusion. |
 | `03_docs/` | Cupom de teste, passa-cabos, mudanças da v0.2c, auditorias de carga e de paredes. | Para consultar durante a montagem. |
 | `04_imagens/` | Imagens atuais (montagem v0.2b, garra, eletrônica na base, cabos, corte do bolso). | Referência visual. |
+| `06_software/` | Script Python de configuração dos servos e sketch do Arduino (relé, e-stop, botão PARAR). Ainda não testados com hardware. | Na bancada, quando a eletrônica chegar (fase 1). |
 | `05_visualizacao_fusion/montagem_b/` | Malhas da montagem inteira posicionadas (inclui servos, eletrônica, lazy susan). **Não são para imprimir.** | Abrir no Fusion com `importar_montagem_v02.py` para ver como tudo encaixa. |
 | `99_arquivo/` | v0.1, backup antes da correção de paredes, STL obsoletos, montagem antiga com mastro e mola, imagens antigas. | Só se precisar recuperar algo. Não imprima nada daqui. |
 

@@ -14,7 +14,7 @@ Braço e antebraço **não mudam**: as presilhas das tampas usam os mesmos inser
 
 ## Parafusos
 - 4 × M3 × 14 nas tampas de baixo (no lugar dos parafusos curtos), cada um prendendo 1 presilha.
-- 2 × M3 × 10 com inserto novo: torre e garra.
+- 2 × M3 × 12 com inserto novo: torre e garra (presilha de 6,2 mm + 5,8 mm no inserto; corrigido em 18/11, antes dizia M3 × 10, que pegava só 3,8 mm).
 - Sobra 1 presilha de reserva.
 
 ## Montagem

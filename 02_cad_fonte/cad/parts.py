@@ -71,7 +71,7 @@ def pocket():
 
 
 def servo_cap():
-    """Tampa do bolso (metade de cima). A mesma peca serve para as 3 juntas."""
+    """Tampa do bolso (metade de cima). A mesma peca serve para os 4 bolsos (2 do ombro, cotovelo, punho): imprimir 4."""
     body = bx(PX0, PX1, -POCKET_Y, POCKET_Y, POCKET_Z, PZ, c=1.5) & _front_round()
     # v0.2d: frisos sobem 1,5 mm para dentro do corpo; antes o chanfro c=1,5 da borda de baixo
     # comia a largura toda do friso (1,5 mm) e ele so encostava numa linha (soltava na impressao)

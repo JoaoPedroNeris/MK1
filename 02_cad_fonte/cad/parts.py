@@ -289,7 +289,7 @@ def base_shell():
         cuts.append(Cyl(PILOT_M3 / 2, 10).move(UNO_O[0] + hx, UNO_O[1] + hy, WALL + 4))
     # painel traseiro: conector 12 V e passagem dos USB
     cuts.append(CylX(6.0, 10).move(-X, -40, 26))
-    cuts.append(bx(-X - 2, -X + WALL + 2, 40, 62, 19, 33))
+    cuts.append(bx(-X - 2, -X + WALL + 2, 42, 66, 8, 34))   # v0.2e (19/11): janela maior, plugue USB-B do UNO passa (antes y 40-62, z 19-33)
     # ventilacao nas laterais
     for s in (1, -1):
         for x in (-62, -50, -38, 38, 50, 62):

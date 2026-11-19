@@ -113,3 +113,7 @@ Valores do PrusaSlicer, incluindo saia, linha de purga e suportes. Para o pedido
 
 - **Faltava 1 `servo_cap`.** A montagem tem 4 tampas (2 no ombro, cotovelo, punho) e os lotes 3 e 4 somavam 3. **Lote 4 refeito com 3 tampas** (1 no lote 3 + 3 no lote 4 = 4). Para caber, a `base_shell` foi girada 90° e as tampas ficaram empilhadas na coluna da direita, com as presilhas em cima. Passou de 18 h 23 min / 273 g para 19 h 06 min / 283 g (+43 min, +10 g). Os lotes 1, 2, 3 e 5 não mudaram.
 - Nenhuma outra peça fatiada mudou nesta revisão: os arquivos novos de laser (`01_imprimir/05_laser_acrilico`) e o mapa de parafusos não mexem em STL.
+
+## Atualização 19/11/2026: janela USB da base
+
+A `base_shell` ganhou uma janela USB maior no painel traseiro (y 42–66, z 8–34), para o plugue do Arduino passar. No `lote4_preto_base_tampas.3mf` só a malha da base foi trocada (mesma posição, mesmo suporte por objeto, mesmo perfil). **O `.gcode` do lote 4 foi para `99_arquivo/janela_usb_19nov/`: abra o 3MF no PrusaSlicer, fatie e exporte o G-code de novo.** Tempo e peso mudam muito pouco (cerca de 1 g a menos). Os lotes 1, 2, 3, 5 e 6 não mudaram.

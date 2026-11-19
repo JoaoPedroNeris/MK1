@@ -23,7 +23,7 @@ Total: 32 peças FDM (31 do braço e garra, mais o cupom), mais 2 chapas de acr�
 | Ordem | Arquivo (`01_imprimir/…`) | Qtd | Material | Versão |
 | --- | --- | --- | --- | --- |
 | 1 | `00_teste_primeiro/fit_coupon_v02b.stl` | 1 | PETG | v0.2b |
-| 2 | `01_base/base_shell.stl` | 1 | PETG preto | v0.2c |
+| 2 | `01_base/base_shell.stl` | 1 | PETG preto | v0.2c + janela USB maior (19/11) |
 | 2 | `01_base/turret.stl` | 1 | PETG preto | v0.2c (já com bloco da presilha do ombro) |
 | 3 | `02_braco/upper_arm.stl` | 1 | PETG preto | v0.2c |
 | 3 | `02_braco/forearm.stl` | 1 | PETG preto | v0.2c |
@@ -61,6 +61,8 @@ Não impresso em FDM:
 | `passa_cabos.md` | Onde vão as presilhas, parafusos (4× M3×14, 2× M3×12) e como testar o laço de cada junta. |
 | `mapa_parafusos_v02c.md` | Parafuso certo de cada encaixe e o total para comprar (39 M3×8, 4 M3×10, 25 M3×12, 4 M3×14, 4 M3×6, 32 insertos). |
 | `mudancas_v02c_paredes.md` | O que mudou na v0.2c (paredes dos insertos, furos do horn de 6,5 mm). |
+| `eletronica_lista_compra.md` | Lista de compra da eletrônica (servos, fonte, e-stop, cabos), com quantidade, especificação e preço aproximado (19/11). |
+| `eletronica_auditoria.md` | Auditoria da eletrônica: correntes, fonte e fusível, diagrama de ligação, encaixe na base, riscos e próximos passos (19/11). |
 | `auditoria/` | Scripts e resultados das contas de carga, torque, insertos e paredes. Os da subpasta `paredes_cargas_18nov` são registro (usam caminhos da nuvem). |
 
 ## Se precisar gerar STL de novo
